@@ -1,0 +1,264 @@
+/* ADD YOUR STYLES HERE */
+
+/*.form1 {
+	width: 500px;
+}
+
+.form1 div {
+	width: 100%;
+	margin: 10px auto;
+	padding: 15px 0px;
+}
+
+.form1 label {
+	width: 30%;
+	text-align: right;
+	float: left;
+}
+
+.form1 input {
+	width: 50%;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: 1px solid #AAA;
+	float: left;
+}
+*/
+
+form {
+	width: 600px;
+}
+
+form div {
+	margin: 10px auto;
+	padding: 15px 0px;
+	margin: 0 20% 0 0;
+}
+
+form div div {
+	margin: 0;
+	padding: 0;
+}
+
+label, input {
+	display: inline-block;
+}
+
+label {
+	width: 19.5%;
+	text-align: right;
+}
+
+input {
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	width: 78.5%;
+}
+	
+.checkbox-label {
+	width: auto;
+	margin-left: 100px;
+	padding: 0;
+}
+
+.checkbox {
+	margin-right: 10px;
+	width: auto;
+}
+
+.city-input {
+	width: 40%;
+}
+
+.state-input {
+	width: auto;
+	width: 16%;
+}
+
+input[type="submit"] {
+	float: right;
+}
+
+.validation-form div {
+	margin: 0;
+}
+
+.validation-form div label {
+	margin-right: 5px;
+}
+
+.validation-form div input {
+	width: 40%;
+}
+
+.valid-label {
+	border: 2px solid #BCF1B5;
+}
+
+.invalid-label {
+	border: 2px solid #FFABAB;
+}
+
+.is-valid {
+	color: green;
+}
+
+.is-invalid {
+	color: #FFABAB;
+}
+
+.fluid-wrapper {
+	position: relative;
+	height: 60px;
+	padding-left: 105px;
+	padding-right: 100px;
+	background-color: #CCC;
+	border-radius: 10px;
+	border: 1px solid #AAA;
+}
+
+.search-wrapper {
+	padding-top: 10px;
+	height: 75%;
+}
+
+.fluid-wrapper label {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 100px;
+}
+
+.fluid-wrapper input[type="submit"] {
+	position: absolute;
+	right: 0;
+	top: 18px;
+	width: 80px;
+	margin-right: 10px;
+	background-color: #ED828A;
+	color: white;
+		border: none;
+}
+
+.searchbox {
+	height: 80%;
+	width: 98%;
+	/*padding-left: 5px;*/
+}
+
+.omnibox {
+	border: 1px solid #CCC;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+.omnibox input {
+	display: inline-block;
+	border: none;
+	width: auto;
+}
+
+.omnibox a {
+	background-color: #616EBF;
+	color: #BBB;
+	padding: 0 5px;
+	margin-right: 3px;
+	text-decoration: none;
+}
+
+.omnibox li {
+	background-color: #798AF0;
+	display: inline-block;
+	margin-left: 3px;
+	padding: 5px;
+	color: white;
+}
+
+.omnibox ul {
+	padding: 0;
+	display: inline-block;
+}
+
+.omnibox, .omnibox * {
+	border-radius: 5px;
+}
+
+.chunky-list ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.chunky-list li {
+	position: relative;
+	padding: 10px 0;
+	border-bottom: 1px solid gray;
+}
+
+.chunky-list li:last-child {
+	border: none;
+}
+
+.chunky-list a {
+	text-decoration: none;
+	width: 100%;
+}
+
+.chunky-list .downloads-col {
+	display: inline-block;
+	width: 15%;
+	float: right;
+}
+
+.chunky-list .icons-col {
+	display: inline-block;
+	height: 60px;
+	width: 10%;
+}
+
+.chunky-list .text-col {
+	display: inline-block;
+	width: 70%;
+}
+
+.chunky-list p {
+	color: #BBB;
+	margin: 0;
+	width: 80%;
+	padding-top: 15px;
+}
+
+.chunky-list .lib-name {
+	font-weight: bold;
+}
+
+.list-title * {
+	background: linear-gradient(white,#CCC);
+	margin: 0;
+	height: 40px;
+	padding-top: 20px;
+	padding-left: 40px;
+	border-bottom: 1px solid gray;
+}
+
+.chunky-list {
+	border: 1px solid gray;
+	border-radius: 3px;
+	border-collapse: collapse;
+}
+
+.chunky-list tr {
+	position: relative;
+	border-bottom: 1px solid gray;
+}
+
+.chunky-list th * {
+	border: none;
+}
+
+.chunky-list td {
+	padding: 10px 0;
+}
+
+.chunky-list th {
+	padding: 0;
+}
